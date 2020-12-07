@@ -19,7 +19,7 @@ native-tls = "0.2"
 thiserror = "1.0"
 futures-util = { version = "0.3", features = ["io"], optional = true }
 tokio = { version = "0.2", default-features = false, features = ["io-util"], optional = true }
-url = "2.2"
+url = "2.1"
 
 [features]
 default = ["runtime-async-std"]
